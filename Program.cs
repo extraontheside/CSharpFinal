@@ -4,16 +4,20 @@ namespace ConsoleApplication
 {
     public class Program
     {
+        public Battalion battalion = new Battalion();
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Console.WriteLine(batallion.warriors.Length);
+            
+            /*Console.WriteLine("Hello World!");
             MyFunction();
             myInt = IntFunction(22);
             string myString = StringFunction(Console.ReadLine());
-            Console.WriteLine(myString);
+            Console.WriteLine(myString); */
         }
 
-        public static int myInt = 10;
+        /*public static int myInt = 10;
 
         public static void MyFunction () {
             Console.WriteLine("Run function.");
@@ -25,7 +29,7 @@ namespace ConsoleApplication
 
         public static string StringFunction (String _name) {
             return "You did well " + _name;
-        }
+        } */
 
     }
 }
